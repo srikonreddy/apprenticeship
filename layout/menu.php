@@ -1,3 +1,10 @@
+<style>
+<?php include 'assets/css/footer.css' ?>
+</style>
+
+
+
+
 <?php function is_page ($name) { return strpos ($_SERVER ['SCRIPT_NAME'], $name) !== false ? 'active' : ''; } ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="/">
