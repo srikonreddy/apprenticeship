@@ -17,23 +17,6 @@ body
   min-height:100%
 
 }
-nav.navbar
-{
-  padding:0.6rem;
-}
-.navbar-nav .nav-link
-{
-  font-size:1.2em;
-}
-
-img.logo-image
-{
-  width:150px;
-  height:100px;
-
-  padding:12px;
-  overflow:hidden;
-}
 
 h1
 {

@@ -1,24 +1,19 @@
-
-
-
 .site-footer {
   position: fixed;
   left: 0;
   bottom: -10px;
   width: 100%;
-  background-color:#049fd9;
+  height:8%;
+  background-color:#343a40;
 	text-align: center;
 	margin: 10px 0;
 	padding: 10px 0;
 }
 
-
-ul
-{
-  margin-bottom:0;
-  padding-left:0;
-
+.footertext{
+  color:white;
 }
+
 #social-wrapper {
 	text-align: center;
 }

@@ -10,21 +10,24 @@
   <div class="social-wrapper">
     <ul>
       <li>
-        <a href="#" target="_blank">
-          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+        <a href="https://twitter.com/ciscoapprentice?lang=en" target="_blank">
+          <img src="/assets/imgs/twitter.jpg" alt="Twitter Logo" class="twitter-icon"></a>
       </li>
       <li>
-        <a href="#" target="_blank">
-          <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+        <a href="https://www.instagram.com/explore/tags/ciscoapprentices/?hl=en" target="_blank">
+          <img src="/assets/imgs/instagram.jpg" alt="Instagram Logo" class="instagram-icon"></a>
       </li>
       <li>
-        <a href="#" target="_blank">
-          <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+        <a href="https://www.facebook.com/CiscoApprenticeship/" target="_blank">
+          <img src="/assets/imgs/facebook.jpg" alt="Facebook Logo" class="facebook-icon"></a>
       </li>
       <li>
-        <a href="#" target="_blank">
-          <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+        <a href="https://www.youtube.com/watch?v=jwyE0_iI7Y8" target="_blank">
+          <img src="/assets/imgs/youtube.jpg" alt="Youtube Logo" class="youtube-icon"></a>
       </li>
+      <li>
+        <p class = "footertext"> Copyright &copy; <?php echo date("Y"); ?> Cisco. All rights reserved </p>
+        </li>
     </ul>
   </div>
 </footer>
