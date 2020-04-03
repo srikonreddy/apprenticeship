@@ -1,6 +1,6 @@
 nav.navbar
 {
-  padding:0.6rem;
+  padding:0.9rem;
 }
 .navbar-nav .nav-link
 {
@@ -9,9 +9,9 @@ nav.navbar
 
 img.logo-image
 {
-  width:150px;
-  height:100px;
+  width:100px;
 
-  padding:12px;
+
+  padding-bottom:12px;
   overflow:hidden;
 }
