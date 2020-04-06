@@ -12,7 +12,7 @@ class Model
           'ALL' => 'All Pathways'
       ];
 
-      static private $modules =
+      static private $mdules =
       [
         'QAB020C101' => 'Managing and Leading',
         'QAB020C102' => 'Finance and Accounting for Non-specialists',
