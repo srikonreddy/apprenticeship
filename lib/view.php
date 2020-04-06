@@ -20,37 +20,25 @@ static function module_list_name($pathway,$name)
 
   if ($pathway && $level)
   {
-      $name = 'Open modules for '.Model::pathway ($pathway);
+      $name = 'All Modules for '.Model::pathway ($pathway);
   }
   else if ($pathway)
   {
-      $name = 'All modules for '.Model::pathway ($pathway);
+      $name = 'All modules for pathway'.Model::pathway ($pathway);
   }
   else if ($level)
   {
-      $name = 'All modules';
+      $name = 'All modules for level';
   }
 
   return $name;
 }
 
+};
 
 
 
 
-
-
-}
-
-
-
-
-
-
-
-
-
-}
 
 
 

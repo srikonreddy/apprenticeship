@@ -16,7 +16,7 @@ $page    = $_GET['page   ']  ??  1;
 // --- this is to load the data from the models
 
 $modules = Model::modules($pathway,$level);
-$title = ucwords(View::pathway_list_name($pathway,$level));
+$title = ucwords(View::module_list_name($pathway,$level));
 
 // ---- this is for paging parameters
 
@@ -83,7 +83,7 @@ if ($level) $params [] = 'level='.$level;
           <td class="d-none d-md-table-cell text-center"><?= View::when ($module['ts']) ?></td>
           <td><?= Model::pathway ($module['pathway']) ?></td>
           <td class="d-none d-lg-table-cell text-center"><div class="text-muted"><?= $module['count'] ?></div></td>
-         <td class="<?= $module'level'] == 'open' ? 'text-danger' : '' ?>"><?= ucfirst ($module['level']) ?></td>
+         <td class="<?= $module['level'] == 'open' ? 'text-danger' : '' ?>"><?= ucfirst ($module['level']) ?></td>
         </tr>
         <?php } ?>
        <?php if ($last - $first == 0) { ?>
@@ -112,7 +112,7 @@ if ($level) $params [] = 'level='.$level;
 <?php } ?>
 </main>
 <?php include 'layout/footer.php' ?>
-<?php include 'layout/scripts.php' ?>
+
 <script>
 
     function reload ()

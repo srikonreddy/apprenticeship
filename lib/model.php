@@ -1,4 +1,4 @@
-<?php
+modules<?php
 
 // --- model class loads and saves data from store
 
@@ -70,5 +70,53 @@ class Model
         'QAC020X317' => 'Professional Practice 3',
         'QAC040X320' => 'Major Project'
       ];
+      // --- all modules
 
-?>
+      static function mdules ()
+      {
+          return self::$modules;
+      }
+
+      // --- all pathways
+
+      static function pathways()
+      {
+          return self::$pathways;
+      }
+
+      // --- details of the given pathway
+
+      static function pathway ($id)
+      {
+          return self::$pathways [$id];
+      }
+
+      // --- details of the given module
+
+      static function module ($id)
+      {
+          $every = json_decode (file_get_contents ('lib/modules.json'), true);
+          return $every [$id];
+      }
+
+      // --- list of modules for a given pathway and level
+
+      static function modules ($pathway, $level)
+      {
+          $every  = json_decode (file_get_contents ('lib/modules.json'), true);
+          $modules = [];
+
+          foreach ($every as $detail)
+          {
+              $match_pathway = $pathway == '' || $pathway == $detail ['pathway'];
+              $match_level = $level == '' || $level == $detail ['level'];
+
+              if ($match_pathway && $match_level)
+              {
+                  $modules [] = $detail;
+              }
+          }
+
+          return $modules;
+      }
+};

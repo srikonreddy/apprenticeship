@@ -48,7 +48,7 @@
     });
 
     $.getJSON("lib/modules.json", function (jsonFromFile) {
-	$('#myTable').bootstrapTable({
+	$('#myable').bootstrapTable({
 		data: jsonFromFile.rows
 	})
 });
