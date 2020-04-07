@@ -12,6 +12,14 @@ class Model
           'ALL' => 'All Pathways'
       ];
 
+      static private $levels =
+      [
+        ''  => 'All Years',
+        '4' => "1st Year",
+        '5' => '2nd Year',
+        '6' => '3rd Year'
+      ];
+
       static private $mdules =
       [
         'QAB020C101' => 'Managing and Leading',
@@ -89,6 +97,17 @@ class Model
       static function pathway ($id)
       {
           return self::$pathways [$id];
+      }
+      static function levels()
+      {
+          return self::$levels;
+      }
+
+      // --- details of the given pathway
+
+      static function level ($id)
+      {
+          return self::$level [$id];
       }
 
       // --- details of the given module
