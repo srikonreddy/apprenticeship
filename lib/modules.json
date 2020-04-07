@@ -1,41 +1,264 @@
-[{"QAC020C101":{"id":"QAC020C101","name":"Understanding Systems Development","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework: 50% & Online Exam (2 Hours): 50%","brief":"Systems development encompasses the design, testing, and implementation of a new software system. This may include the internal development of customised systems, or the acquisition of third party developed software. The module will outline how written standards and procedures must guide all information systems processing functions. The organisation’s management must define and implement standards and adopt an appropriate system development life cycle methodology governing the process of developing, acquiring, implementing, and maintaining computerised information systems and related technology."}]},
+{
+	"QAC020C101": {
+		"id": "QAC020C101",
+		"name": "Understanding Systems Development",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework: 50% & Online Exam (2 Hours): 50%",
+			"brief": "Systems development encompasses the design, testing, and implementation of a new software system. This may include the internal development of customised systems, or the acquisition of third party developed software. The module will outline how written standards and procedures must guide all information systems processing functions. The organisation’s management must define and implement standards and adopt an appropriate system development life cycle methodology governing the process of developing, acquiring, implementing, and maintaining computerised information systems and related technology."
+		}]
+	},
 
-"QAC020C102":{"id":"QAC020C102","name":"Work Based Portfolio","pathway":"ALL","level":4,"details":[{"tutor":"Munir Morad/Ben Sweetman","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework (5000 words): 100%","brief":"During the first year of the apprenticeship degree, students are required to demonstrate evidence of significant engagement and achievement in the work place as developing apprentices, evidenced through the preparation and delivery of a work based portfolio. This module requires apprentices to demonstrate that they have developed the necessary skills and aptitude to be able to carry out systematically (with a reasonable degree of independence) an important set of tasks with clearly identifiable outcomes relevant to the apprenticeship. "}]},
+	"QAC020C102": {
+		"id": "QAC020C102",
+		"name": "Work Based Portfolio",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "Munir Morad/Ben Sweetman",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework (5000 words): 100%",
+			"brief": "During the first year of the apprenticeship degree, students are required to demonstrate evidence of significant engagement and achievement in the work place as developing apprentices, evidenced through the preparation and delivery of a work based portfolio. This module requires apprentices to demonstrate that they have developed the necessary skills and aptitude to be able to carry out systematically (with a reasonable degree of independence) an important set of tasks with clearly identifiable outcomes relevant to the apprenticeship. "
+		}]
+	},
 
-"QAC020C115":{"id":"QAC020C115","name":"Maths and Algorithms","level":4,"pathway":"ALL","details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework: 50% & Online Exam (2 Hours): 50%","brief":"The aim of this module is to help you become a computational thinker. Formulating a problem for efficient solution by computers is an extremely important skill. In this module, you will hone this skill: exploring a range of computing concepts; applying these to a variety of problems; and, in the process, becoming familiar with the popular Python programming language. This is the module for you if you are specialising in computing or if – whatever your field – you need to understand both the power and the limitations of computing. Though the focus is on the underlying ideas, you will also need to work with some mathematical concepts and notation."}]},
+	"QAC020C115": {
+		"id": "QAC020C115",
+		"name": "Maths and Algorithms",
+		"level": 4,
+		"pathway": "ALL",
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework: 50% & Online Exam (2 Hours): 50%",
+			"brief": "The aim of this module is to help you become a computational thinker. Formulating a problem for efficient solution by computers is an extremely important skill. In this module, you will hone this skill: exploring a range of computing concepts; applying these to a variety of problems; and, in the process, becoming familiar with the popular Python programming language. This is the module for you if you are specialising in computing or if – whatever your field – you need to understand both the power and the limitations of computing. Though the focus is on the underlying ideas, you will also need to work with some mathematical concepts and notation."
+		}]
+	},
 
-"QAC020C115":{"id":"QAC020C115","name":"Maths and Algorithms","level":4,"pathway":"ALL","details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework: 50% & Online Exam (2 Hours): 50%","brief":"The aim of this module is to help you become a computational thinker. Formulating a problem for efficient solution by computers is an extremely important skill. In this module, you will hone this skill: exploring a range of computing concepts; applying these to a variety of problems; and, in the process, becoming familiar with the popular Python programming language. This is the module for you if you are specialising in computing or if – whatever your field – you need to understand both the power and the limitations of computing. Though the focus is on the underlying ideas, you will also need to work with some mathematical concepts and notation."}},
+	"QAC020C107": {
+		"id": "QAC020C107",
+		"name": "Data Modelling and SQL Language",
+		"pathway": "Data Analyst",
+		"level": 4,
+		"details": [{
+			"tutor": "Saeed Dehnadi",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework (5 assignments) [100%]",
+			"brief": "The aim of this unit is to provide knowledge and understanding of database systems including design principles (including database normalisation), as well as practical implementation and development skills for both the system designer and software engineer. The module will also cover the use of SQL (Structured Query Language) for managing data held in a relational database management system (RDBMS)."
+		}]
+	},
 
-"QAC020C107":{"id":"QAC020C107","name":"Data Modelling and SQL Language","pathway":"Data Analyst","level":4,"details":[{"tutor":"Saeed Dehnadi","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework (5 assignments) [100%]","brief":"The aim of this unit is to provide knowledge and understanding of database systems including design principles (including database normalisation), as well as practical implementation and development skills for both the system designer and software engineer. The module will also cover the use of SQL (Structured Query Language) for managing data held in a relational database management system (RDBMS)."}]},
+	"QAC020C110": {
+		"id": "QAC020C110",
+		"name": "Data Communications & Network Security",
+		"pathway": "Network Engineer",
+		"level": 4,
+		"details": [{
+			"tutor": "Saeed Dehnadi",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework [50%] & Online exam (2 hours) [50%]]",
+			"brief": "This module will introduce the basics of data communications and networks, covering network protocols and architectures. The module will also introduce students to modern networking technologies, including protocol layering and network security measures."
+		}]
+	},
 
-"QAC020C110":{"id":"QAC020C110","name":"Data Communications & Network Security","pathway":"Network Engineer","level":4,"details":[{"tutor":"Saeed Dehnadi","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework [50%] & Online exam (2 hours) [50%]]","brief":"This module will introduce the basics of data communications and networks, covering network protocols and architectures. The module will also introduce students to modern networking technologies, including protocol layering and network security measures."}},
+	"QAC020C113": {
+		"id": "QAC020C113",
+		"name": "IP-Based Network Switching Systems",
+		"pathway": "Network Engineer",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework [50%] & Online exam (2 hours) [50%]]",
+			"brief": "QA is a qualified member of the Cisco Networking Academy, and this module will draw on QA’s expertise and resources in teaching IP-Based Network Switching Systems. The main focus of the module will be on: analysing Campus Network Structure; comparing Layer 2 and Multilayer Switches; using Cisco SDM Templates; implementing LLDP; implementing PoE."
+		}]
+	},
 
-"QAC020C113":{"id":"QAC020C113","name":"IP-Based Network Switching Systems","pathway":"Network Engineer","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework [50%] & Online exam (2 hours) [50%]]","brief":"QA is a qualified member of the Cisco Networking Academy, and this module will draw on QA’s expertise and resources in teaching IP-Based Network Switching Systems. The main focus of the module will be on: analysing Campus Network Structure; comparing Layer 2 and Multilayer Switches; using Cisco SDM Templates; implementing LLDP; implementing PoE."}]},
+	"QAC020C104": {
+		"id": "QAC020C104",
+		"name": "Object Oriented Programming",
+		"pathway": "Software Engineer",
+		"level": 4,
+		"details": [{
+			"tutor": "Saeed Dehnadi",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Assignments consisting of 4 tasks [100%]",
+			"brief": "This module covers more advanced concepts of object oriented computer languages and their use to implement, refine and test computer programs.Java will be used as the vehicle for learning about Object Oriented Programming, using real - world examples."
+		}]
+	},
 
-"QAC020C104":{"id":"QAC020C104","name":"Object Oriented Programming","pathway":"Software Engineer","level":4,"details":[{"tutor":"Saeed Dehnadi","credits":20,"term":"Autumnn or Spring", "assessment":"Assignments consisting of 4 tasks [100%] ","brief":"This module covers more advanced concepts of object oriented computer languages and their use to implement, refine and test computer programs. Java will be used as the vehicle for learning about Object Oriented Programming, using real-world examples."}]},
+	"QAC020C103A": {
+		"id": "QAC020C103A",
+		"name": "IT Project Management",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Group presentation [25%], Individual assignment [25%], Online exam (2 hours) [50%]",
+			"brief": " Broadly, the module will adopt a project management approach(with a focus on planning for incremental learning in an IT context) in relation to: project planning and strategy;executing the strategy;project management techniques;business and commercial applications of IT project management;organisation and governance;managing people."
+		}]
+	},
 
-"QAC020C103A":{"id":"QAC020C103A","name":"IT Project Management","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Group presentation [25%], Individual assignment [25%], Online exam (2 hours) [50%] ","brief":"Broadly, the module will adopt a project management approach (with a focus on planning for incremental learning in an IT context) in relation to: project planning and strategy; executing the strategy; project management techniques; business and commercial applications of IT project management; organisation and governance; managing people."}]},
+	"QAC020C105": {
+		"id": "QAC020C105",
+		"name": "Systems Analysis and Design",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework [50%], Online exam (2 hours) [50%]",
+			"brief": "The module aims to enable students to construct knowledge of systems analysis and design, to design software solutions based on real life scenarios. Students will learn how to model entity change using life history, and produce data-flow descriptions of current and proposed applications. The module will utilise systems theory concepts, which underpin analysis and design methods."
+		}]
+	},
 
-"QAC020C105":{"id":"QAC020C105","name":"Systems Analysis and Design","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework [50%], Online exam (2 hours) [50%]","brief":"The module aims to enable students to construct knowledge of systems analysis and design, to design software solutions based on real life scenarios. Students will learn how to model entity change using life history, and produce data-flow descriptions of current and proposed applications. The module will utilise systems theory concepts, which underpin analysis and design methods."}]},
+	"QAC020C106": {
+		"id": "QAC020C106",
+		"name": "Test Driven Development",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "Peter Behague",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Essay [25%], Digital Media Project [75%] ",
+			"brief": "This module is designed to bring about a fundamental change to the way developers go about their day-to-day business of writing software code. Instead of thinking about unit tests as at best an afterthought, having already written the application code, the course aims to turn this practice on its head, and get programmers to write tests before the code to be tested. Originating in the Agile methodology of Extreme Programming, Test Driven Development(TDD) has become accepted as a mainstream best practice and is being adopted by major organisations as means of improving code quality and developer productivity."
+		}]
+	},
 
-"QAC020C106":{"id":"QAC020C106","name":"Test Driven Development","pathway":"ALL","level":4,"details":[{"tutor":"Peter Behague","credits":20,"term":"Autumnn or Spring", "assessment":"Essay [25%], Digital Media Project [75%] ","brief":"This module is designed to bring about a fundamental change to the way developers go about their day-to-day business of writing software code. Instead of thinking about unit tests as at best an afterthought, having already written the application code, the course aims to turn this practice on its head, and get programmers to write tests before the code to be tested.  Originating in the Agile methodology of Extreme Programming, Test Driven Development (TDD) has become accepted as a mainstream best practice, and is being adopted by major organisations as means of improving code quality and developer productivity.  "}]},
+	"QAC020C108": {
+		"id": "QAC020C108",
+		"name": "Web Application Development",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "Saeed Dehnadi",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework [50%], Exam (2 hours) [50%]",
+			"brief": "The purpose of this module is to provide learners with the understanding of tools and skills needed to design, implement and test interactive a simple web site supported in all modern browsers. Then the module takes learners through advanced tools to create a high performance web application without the need for plugin technology, and with reduced calls to servers."
+		}]
+	},
 
-"QAC020C108":{"id":"QAC020C108","name":"Web Application Development","pathway":"ALL","level":4,"details":[{"tutor":"Saeed Dehnadi","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework [50%], Exam (2 hours) [50%]","brief":"The purpose of this module is to provide learners with the understanding of tools and skills needed to design, implement and test interactive a simple web site supported in all modern browsers. Then the module takes learners through advanced tools to create a high performance web application without the need for plugin technology, and with reduced calls to servers. "}]},
+	"QAC020C109": {
+		"id": "QAC020C109",
+		"name": "Management for IT",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Assignment (involving a case study) [50%], Online exam (2 hours) [50%]",
+			"brief": "Management for Information Technology is concerned with managing IT resources in an organisation: hardware, software, and human resources. Managing this responsibility within an organisation entails basic management functions, like budgeting, staffing, change management, and organising and controlling, along with other aspects that are unique to technology, like software design, network planning, and technical support. This module outlines the basic concepts, principles and methods of managing IT projects, including the alignment of business strategy and technology to generate value for the organisation."
+		}]
+	},
 
-"QAC020C109":{"id":"QAC020C109","name":"Management for IT","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Assignment (involving a case study) [50%], Online exam (2 hours) [50%]","brief":"Management for Information Technology is concerned with managing IT resources in an organisation: hardware, software, and human resources. Managing this responsibility within an organisation entails basic management functions, like budgeting, staffing, change management, and organising and controlling, along with other aspects that are unique to technology, like software design, network planning, and technical support. This module outlines the basic concepts, principles and methods of managing IT projects, including the alignment of business strategy and technology to generate value for the organisation. "}]},
+	"QAC020C111": {
+		"id": "QAC020C111",
+		"name": "IT Security Principles",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Assignment [50%], Online exam (2 hours) [50%]",
+			"brief": "Management for Information Technology is concerned with managing IT resources in an organisation: hardware, software, and human resources. Managing this responsibility within an organisation entails basic management functions, like budgeting, staffing, change management, and organising and controlling, along with other aspects that are unique to technology, like software design, network planning, and technical support. This module outlines the basic concepts, principles and methods of managing IT projects, including the alignment of business strategy and technology to generate value for the organisation."
+		}]
+	},
 
-"QAC020C111":{"id":"QAC020C111","name":"IT Security Principles","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Assignment [50%], Online exam (2 hours) [50%]","brief":"Management for Information Technology is concerned with managing IT resources in an organisation: hardware, software, and human resources. Managing this responsibility within an organisation entails basic management functions, like budgeting, staffing, change management, and organising and controlling, along with other aspects that are unique to technology, like software design, network planning, and technical support. This module outlines the basic concepts, principles and methods of managing IT projects, including the alignment of business strategy and technology to generate value for the organisation. "}]},
+	"QAC020C112": {
+		"id": "QAC020C112",
+		"name": "Service Management",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework [50%], Online exam (2 hours) [50%]",
+			"brief": "The module introduces the theory and practice of problem solving in computing through computational mathematical methods and the development of algorithms. The mathematical component of the module will cover ffundamental concepts from logic, and how to reason logically about numbers and data structures such as sets and trees. Students will also learn about mathematical proof techniques, linear algebra, basic probability and other mathematical concepts that are needed, for example, to analyse the performance of algorithms or determine the correct view of a rotating 3D graphic. Typical problems solved by computing algorithms include those used for searching and sorting data, string comparison algorithms and graph algorithms."
+		}]
+	},
 
-"QAC020C112":{"id":"QAC020C112","name":"Service Management","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework [50%], Online exam (2 hours) [50%]","brief":"The module introduces the theory and practice of problem solving in computing through computational mathematical methods and the development of algorithms. The mathematical component of the module will cover ffundamental concepts from logic, and how to reason logically about numbers and data structures such as sets and trees. Students will also learn about mathematical proof techniques, linear algebra, basic probability and other mathematical concepts that are needed, for example, to analyse the performance of algorithms or determine the correct view of a rotating 3D graphic. Typical problems solved by computing algorithms include those used for searching and sorting data, string comparison algorithms and graph algorithms."}]},
+	"QAC020C114": {
+		"id": "QAC020C113",
+		"name": "Service Management",
+		"pathway": "ALL",
+		"level": 4,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "coursework [50%], online exam (2 hours) [50%]",
+			"brief": "Windows Servers consist of Microsoft server products, including the server editions of Microsoft Windows operating system itself, as well as products available to the wider business market. Unlike Microsoft Dynamics or Microsoft Office product lines, most of the products sold under this brand are not intended to be line-of-business services on their own. This is a complex and fast evolving scene, and the content of the module is likely to change significantly on a periodic basis, accelerated largely by advance in cloud technology. Greater flexibility and agility is provided by Windows Server 2012 R2, which is central to Microsoft’s Cloud OS direction of travel, featuring virtualisation, management, storage, networking, virtual desktop infrastructure, access and information protection, the web and application platform."
+		}]
+	},
 
-"QAC020C114":{"id":"QAC020C113","name":"Service Management","pathway":"ALL","level":4,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"coursework [50%], online exam (2 hours) [50%]","brief":"Windows Servers consist of Microsoft server products, including the server editions of Microsoft Windows operating system itself, as well as products available to the wider business market. Unlike Microsoft Dynamics or Microsoft Office product lines, most of the products sold under this brand are not intended to be line-of-business services on their own. This is a complex and fast evolving scene, and the content of the module is likely to change significantly on a periodic basis, accelerated largely by advance in cloud technology. Greater flexibility and agility is provided by Windows Server 2012 R2, which is central to Microsoft’s Cloud OS direction of travel, featuring virtualisation, management, storage, networking, virtual desktop infrastructure, access and information protection, the web and application platform."}]},
+	"QAC020N201": {
+		"id": "QAC020N201",
+		"name": "Business Strategy",
+		"pathway": "ALL",
+		"level": 5,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework (consisting of at least one assignment, with components) [50%], Online exam (2 hours) [50%]",
+			"brief": "Business Strategy provides overall direction to the enterprise and involves specifying an organisation's objectives, developing policies and plans designed to achieve these objectives, and then allocating resources to implement the plans. Strategic business management is not static in nature; the models often include a feedback loop to monitor execution and inform the following round of planning, based on consideration of resources and an assessment of the internal and external situations in which the organisation competes."
+		}]
+	},
 
-"QAC020N201":{"id":"QAC020N201","name":"Business Strategy","pathway":"ALL","level":5,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"Coursework (consisting of at least one assignment, with components) [50%], Online exam (2 hours) [50%]","brief":"Business Strategy provides overall direction to the enterprise and involves specifying an organisation's objectives, developing policies and plans designed to achieve these objectives, and then allocating resources to implement the plans. Strategic business management is not static in nature; the models often include a feedback loop to monitor execution and inform the following round of planning, based on consideration of resources and an assessment of the internal and external situations in which the organisation competes."}]},
+	"QAC020N202": {
+		"id": "QAC020N202",
+		"name": "Research Methods",
+		"pathway": "ALL",
+		"level": 5,
+		"details": [{
+			"tutor": "",
+			"credits": 10,
+			"term": "Autumnn or Spring",
+			"assessment": "Coursework (consisting of at least one assignment, with components) [100%]",
+			"brief": "The Research Methods module is designed to provide students with the necessary training to undertake research. The module focuses on the nature of research (including research methodologies), examining the study skills necessary to manage and undertake a research project; and it provides students with opportunities to be familiar with the important empirical and theoretical research (including hypothesis testing). Such skills are intended to provide a good foundation for undertaking a dissertation at an advanced level."
+		}]
+	},
 
-"QAC020N202":{"id":"QAC020N202","name":"Research Methods","pathway":"ALL","level":5,"details":[{"tutor":"","credits":10,"term":"Autumnn or Spring", "assessment":"Coursework (consisting of at least one assignment, with components) [100%]","brief":"The Research Methods module is designed to provide students with the necessary training to undertake research. The module focuses on the nature of research (including research methodologies), examining the study skills necessary to manage and undertake a research project; and it provides students with opportunities to be familiar with the important empirical and theoretical research (including hypothesis testing). Such skills are intended to provide a good foundation for undertaking a dissertation at an advanced level."}]},
+	"QAC020N203": {
+		"id": "QAC020N202",
+		"name": "Work Based Project",
+		"pathway": "ALL",
+		"level": 5,
+		"details": [{
+			"tutor": "",
+			"credits": 30,
+			"term": "Autumnn or Spring",
+			"assessment": "This is a level 5 continuation of the Work Based theme in the apprenticeship degree. Students are required to prepare a Work Based Project, demonstrating evaluative evidence of significant engagement and achievement in the work place. This module requires apprentices to demonstrate that they have developed the necessary skills and aptitude to be able to carry out systematically and critically a task with clearly identifiable outcomes relevant to the apprenticeship. This may be a further development of the Work Based Portfolio developed at Level 4."
+		}]
+	},
 
-"QAC020N203":{"id":"QAC020N202","name":"Work Based Project","pathway":"ALL","level":5,"details":[{"tutor":"","credits":30,"term":"Autumnn or Spring", "assessment":"This is a level 5 continuation of the Work Based theme in the apprenticeship degree. Students are required to prepare a Work Based Project, demonstrating evaluative evidence of significant engagement and achievement in the work place. This module requires apprentices to demonstrate that they have developed the necessary skills and aptitude to be able to carry out systematically and critically a task with clearly identifiable outcomes relevant to the apprenticeship. This may be a further development of the Work Based Portfolio developed at Level 4."}]},
-
-"QAC020N204":{"id":"QAC020N204","name":"Solution Architecture","level":5,"details":[{"tutor":"","credits":20,"term":"Autumnn or Spring", "assessment":"This is as level 5 continuation of the Work Based theme in the apprenticeship degree. Students are required to prepare a Work Based Project, demonstrating evaluative evidence of significant engagement and achievement in the work place. This module requires apprentices to demonstrate that they have developed the necessary skills and aptitude to be able to carry out systematically and critically a task with clearly identifiable outcomes relevant to the apprenticeship. This may be a further development of the Work Based Portfolio developed at Level 4."}]},
-
-}];
+	"QAC020N204": {
+		"id": "QAC020N204",
+		"name": "Solution Architecture",
+		"level": 5,
+		"details": [{
+			"tutor": "",
+			"credits": 20,
+			"term": "Autumnn or Spring",
+			"assessment": "This is as level 5 continuation of the Work Based theme in the apprenticeship degree. Students are required to prepare a Work Based Project, demonstrating evaluative evidence of significant engagement and achievement in the work place. This module requires apprentices to demonstrate that they have developed the necessary skills and aptitude to be able to carry out systematically and critically a task with clearly identifiable outcomes relevant to the apprenticeship. This may be a further development of the Work Based Portfolio developed at Level 4."
+		}]
+	}
+}

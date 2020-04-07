@@ -1,4 +1,4 @@
-modules<?php
+<?php
 
 // --- model class loads and saves data from store
 
@@ -6,15 +6,15 @@ class Model
 {
       static private $pathways =
       [
+          'ALL' => 'All Pathways',
           'SE' => 'Software Engineer',
           'NE' => 'Network Engineer',
           'DA' => 'Data Analyst',
-          'ALL' => 'All Pathways'
+
       ];
 
       static private $levels =
       [
-        ''  => 'All Years',
         '4' => "1st Year",
         '5' => '2nd Year',
         '6' => '3rd Year'

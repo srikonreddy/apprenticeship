@@ -10,8 +10,8 @@ define ('PAGE_SIZE',10);
 // --- this is to get the URL parameters
 
 $pathway = $_GET['pathway']  ?? '';
-$level   = $_GET['level']    ?? '';
-$page    = $_GET['page']     ??  1;
+$level = $_GET['level']    ?? '';
+$page = $_GET['page']     ??  1;
 
 // --- this is to load the data from the models
 
@@ -48,21 +48,21 @@ if ($level) $params [] = 'level='.$level;
 <body>
   <?php include 'layout/menu.php' ?>
   <main role="main" class="container">
+    <h1><?= $title ?></h1>
     <nav>
       <div class="float-right">
         <label for "pathway"><span class="d-done d-md-inline">Pathway:</span></label>
         <select id="pathway">
-          <option value=""<?= $pathway == '' ? 'selected' : '' ?> >All Pathways</option>
-          <?php foreach (Model::pathways() as $id => $name) {?>
-          <option value="<?= $id ?>" <?= $pathway == $id ? 'selected' : '' ?> ><?= $name ?></option>
+          <?php foreach (Model::pathways() as $id => $pathwayname) {?>
+          <option value="<?= $id ?>" <?= $pathway == $id ? 'selected' : '' ?> ><?= $pathwayname ?></option>
           <?php  } ?>
         </select>
         <label for="year"><span class="d-done d-md-inline">Level:</span></label>
-        <select class="mr-0" id="levels">
-          <option value ="" <?= $level == '' ? 'selected' : '' ?> >All Years</option>
-          <option value="1" <?= $level == '' ? 'selected' : '' ?> >1st Year</option>
-          <option value="2" <?= $level == '' ? 'selected' : '' ?> >2nd Year</option>
-          <option value="3" <?= $level == '' ? 'selected' : '' ?> >3rd Year</option>
+        <select id="level">
+          <option value=""<?= $pathway == '' ? 'selected' : '' ?> >All Years</option>
+          <?php foreach (Model::levels() as $id => $level) {?>
+          <option value="<?= $id ?>" <?= $pathway == $id ? 'selected' : '' ?> ><?= $level ?></option>
+          <?php  } ?>
         </select>
       </div>
     </nav>
@@ -79,11 +79,9 @@ if ($level) $params [] = 'level='.$level;
         <?php for ($i = $first ; $i < $last ; $i++) {$module = $modules[$i]; ?>
         <tr class="<?= $module['level'] == 'open' ? '' : 'text-muted' ?>">
           <td class="text-center"><a href="pathways.php?id=<?= $module['id'] ?>"><?= $module['id'] ?></a></td>
-          <td class=""><?= $module['name']?></td>
-          <td class="d-none d-md-table-cell text-center"><?= View::module_name ($module['name']) ?></td>
-          <td><?= Model::pathways ($module['pathway']) ?></td>
-          <td class="d-none d-lg-table-cell text-center"><div class="text-muted"><?= $module['pathway'] ?></div></td>
-         <td class="<?= $module['level'] == 'open' ? 'text-danger' : '' ?>"><?= ucfirst ($module['level']) ?></td>
+          <td class="text-center"><?= $module['name']?></td>
+          <td class="d-none d-md-table-cell text-center"><?= $module['pathway']?></td>
+          <td class="d-none d-lg-table-cell text-center"><div class="text-muted"><?= $module['level'] ?></div></td>
         </tr>
         <?php } ?>
        <?php if ($last - $first == 0) { ?>
